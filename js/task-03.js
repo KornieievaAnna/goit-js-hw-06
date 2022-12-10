@@ -25,11 +25,11 @@ for (const {url,alt} of images) {
 
   li.appendChild(img);
   list.appendChild(li);
-  
-  list.style.display = "flex";
-  list.style.alignItems = "center";
-  list.style.justifyContent= "space-around";
 }
+list.style.display = "flex";
+list.style.alignItems = "center";
+list.style.listStyleType = "none";
+list.style.justifyContent = "space-around";
 
 
 
